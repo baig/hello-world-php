@@ -4,6 +4,7 @@
 chdir(dirname(__FILE__));
 
 $returnStatus = null;
+$autoload = false;
 
 passthru('composer install', $returnStatus);
 if ($returnStatus !== 0) {
