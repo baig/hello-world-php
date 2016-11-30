@@ -2,7 +2,7 @@
 
 namespace My;
 
-use \PHPUnit\Framework\TestCase;
+use \PHPUnit_Framework_TestCase as TestCase;
 
 class ErrorTest extends TestCase
 {
